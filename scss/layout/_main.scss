@@ -46,7 +46,7 @@
     display: none;
   }
 
-  img.small-archive {
+  img.sm {
     display: none;
   }
   
@@ -80,7 +80,7 @@
       height: 500px;
   }
 
-  img.md {
+  img.sm {
     display: none;
   } 
 
@@ -350,16 +350,15 @@ small {
   margin-bottom: 330px;
 }
 
+
+
 @include md {
   // archive
   .p-3-burgers-container {
     img.middeum-archive {
       display: block;
     }
-    img.big-archive {
-      display: none;
-    }
-    img.small-archive {
+    img.sm {
       display: none;
     }
     h2 {
@@ -401,15 +400,15 @@ small {
     margin-top: 0;
   }
   .p-3-burgers-container {
-    img.small-archive {
+    img.sm {
       display: block;
     }
-    img.big-archive {
+    img.lg {
       display: none;
     }
-    img.middeum-archive {
-      display: none;
-    }
+    // img.middeum-archive {
+    //   display: none;
+    // }
   }
 
   // single
@@ -419,7 +418,7 @@ small {
       display: none;
     } 
 
-    img.md {
+    img.sm {
       display: block;
     }
 

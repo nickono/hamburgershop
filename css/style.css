@@ -97,7 +97,7 @@ body {
     line-height: 4.5rem;
     font-weight: bold;
     color: #EBE7E7;
-    color: #EBE7E7;
+    color: #707070;
     z-index: 300;
   }
   .l-header-container .p-search-container {
@@ -195,7 +195,7 @@ body {
   display: none;
 }
 
-.p-3-burgers-container img.small-archive {
+.p-3-burgers-container img.sm {
   display: none;
 }
 
@@ -228,7 +228,7 @@ body {
   height: 500px;
 }
 
-.p-main-container img.md {
+.p-main-container img.sm {
   display: none;
 }
 
@@ -489,10 +489,7 @@ small {
   .p-3-burgers-container img.middeum-archive {
     display: block;
   }
-  .p-3-burgers-container img.big-archive {
-    display: none;
-  }
-  .p-3-burgers-container img.small-archive {
+  .p-3-burgers-container img.sm {
     display: none;
   }
   .p-3-burgers-container h2 {
@@ -525,19 +522,16 @@ small {
   section h2 {
     margin-top: 0;
   }
-  .p-3-burgers-container img.small-archive {
+  .p-3-burgers-container img.sm {
     display: block;
   }
-  .p-3-burgers-container img.big-archive {
-    display: none;
-  }
-  .p-3-burgers-container img.middeum-archive {
+  .p-3-burgers-container img.lg {
     display: none;
   }
   .p-main-container img.lg {
     display: none;
   }
-  .p-main-container img.md {
+  .p-main-container img.sm {
     display: block;
   }
   .p-main-container h1 {
@@ -608,7 +602,7 @@ small {
   color: #707070;
 }
 
-.l-sidebar-container ul .p-menu-container .beverage {
+.l-sidebar-container ul .beverage {
   font-family: "mplus 1m";
   font-size: 24px;
   font-weight: bold;
@@ -940,6 +934,7 @@ small {
   width: 100%;
   padding-top: 33px;
   padding-left: 6.5%;
+  padding-right: 6.5%;
 }
 
 .cheeseburger-container {
