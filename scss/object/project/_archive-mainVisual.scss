@@ -32,23 +32,18 @@
     img {
         width: 43.5%;
         height: auto;
-        margin-left: 0;
-        padding-left: 0;    
+        object-fit: cover;
+        object-position: 0% 0%;
       }
 
     .cheeseburger-container-right {
         width: 43.5%;
         height:   auto;
         background-color: $bgc-brown;
-        // text-align: center;
 
         h2, h3, p {
           color: white;
           font-family: $m;
-          //new addition
-          // text-align: left;
-          
-
         }
 
         h2 {
@@ -65,9 +60,6 @@
           line-height: 2.9rem;
           font-weight: bold;
           padding-bottom: 4.7%;
-          //new addition
-          // margin: 0 auto;
-          // text-align: left;
           padding-left: 9.3%;
         } 
 
@@ -75,7 +67,6 @@
           width: 75.2%;
           font-size: 1.6rem;
           line-height: 1.9rem;
-          // margin: 0 auto;
           text-align: left;
           padding-left: 9.3%;
         }
@@ -232,13 +223,18 @@
       // display: block;
       // margin: 0 auto;
       // text-align: center;
+      // height: 355px;
+      // height: auto;
 
-      // img {
+      img {
       //   text-align: center;
       //   margin: 0 auto;
       //   width: 43.5%;
       //   vertical-align: ;
-      //   }
+      object-position: 10% 0%;
+      // height: auto;
+      // height: 355px;
+        }
 
       .cheeseburger-container-right {
         // width: 100%;
@@ -247,18 +243,30 @@
 
         h2 {
           font-size: 2.0rem;
+          padding-top: 33px;
+          padding-left: 9.3%;
+          padding-bottom: 31px;
         }  
         h3 {
           font-size: 1.6rem;
+          padding-bottom: 13px;
+        }
+        p {
+          height: 114px;
+        }
+        button {
+          width: 43.1%;
+          margin-top: 45px;
         }
       }
     }
     .w-cheeseburger-container {
       // display: block;
 
-      // img {
+      img {
       //   width: 43.5%;
-      // }
+      object-position: 10% 0%;
+      }
 
       .w-cheeseburger-container-right {
         // width: 43.5%;
@@ -275,6 +283,11 @@
     }
     .s-cheeseburger-container {
       // display: block;
+
+      img {
+        //   width: 43.5%;
+        object-position: 10% 0%;
+        }
 
       .s-cheeseburger-container-right {
         // margin: 0 auto;
@@ -313,6 +326,8 @@
   }
   .cheeseburger-container {
     display: block;
+    width: 100%;
+    height: auto;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -320,6 +335,8 @@
     img {
       width: 90.0%;
       vertical-align: bottom;
+      height: auto;
+      object-fit: cover;
       }
 
     .cheeseburger-container-right {

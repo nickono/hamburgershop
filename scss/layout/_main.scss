@@ -35,6 +35,7 @@
     // overflow: hidden;
     width: 100%;
     height: 239px;
+    // height: auto;
     background-color: #000000; 
 
   img {
@@ -42,11 +43,12 @@
     width: 100%;
     height: 239px;
     // height: auto;
+    object-fit: cover;
   }
 
-  img.middeum-archive {
-    display: none;
-  }
+  // img.middeum-archive {
+  //   display: none;
+  // }
 
   img.sm {
     display: none;
@@ -358,8 +360,11 @@ small {
 @include md {
   // archive
   .p-3-burgers-container {
-    img.middeum-archive {
-      display: block;
+    // img.middeum-archive {
+      height: 283px;
+    img.lg {
+    display: block;
+    height: 283px;
     }
     img.sm {
       display: none;
@@ -405,6 +410,7 @@ small {
   .p-3-burgers-container {
     img.sm {
       display: block;
+      height: 283px;
     }
     img.lg {
       display: none;
