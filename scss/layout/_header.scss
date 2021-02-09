@@ -97,41 +97,9 @@
     }
 
     .p-search-container {
-      // display: block;
       display: flex;
       padding-bottom: 40px;
-      // text-align: center;
       justify-content: center;
-
-      // .p-searchbox {
-      //   border: solid 1px black;
-      //   width: 396px;
-      //   height: 46px;
-      //   border-radius: 10px;
-      //   background-color: #FFFFFF;
-      //   display: inline-block;
-      //   text-align: left;
-      //   vertical-align: middle;
-      //   position: relative; 
-
-      // .search {
-      //   border: solid 1px black;
-      //   width: 396px;
-      //   height: 46px;
-      //   border-radius: 10px;
-      //   background-color: #FFFFFF;
-      //   display: inline-block;
-      //   text-align: left;
-      //   vertical-align: middle;
-        // position: relative; 
-
-        // .my-icon {
-        //   font-size: 3rem;
-        //   position: absolute;
-        //   top: 6px;
-        //   left: 6px;
-        // }
-      
 
       .p-search-button {
         width: 136px;
